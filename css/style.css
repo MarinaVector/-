@@ -731,21 +731,21 @@
 .goods-image-bfg6000 {
   margin-top: 33px;
   margin-right: 11px;
-  margin-bottom: 31px;
+  margin-bottom: 22px;
   margin-left: 8px;
 }
 
 .goods-image-bfg3000 {
   margin-top: 27px;
   margin-right: 17px;
-  margin-bottom: 31px;
+  margin-bottom: 23px;
   margin-left: 10px;
 }
 
 .goods-image-bfg2000 {
   margin-top: 27px;
   margin-right: 26px;
-  margin-bottom: 31px;
+  margin-bottom: 28px;
   margin-left: 4px;
 }
 
@@ -799,9 +799,21 @@
   color: black;
 }
 
+.page-button-next {
+  display: block;
+  padding-top: 9px;
+  padding-right: 30px;
+  padding-bottom: 9px;
+  padding-left: 35px;
+  border: 1px solid #e5e5e5;
+  border-radius: 3px;
+  color: black;
+  font-size: 13px;
+}
+
 .perfrators-subject {
   padding-top: 66px;
-  padding-bottom: 73px;
+  padding-bottom: 75px;
   background-color: #f2f6f8;
 }
 
@@ -1133,7 +1145,6 @@
   width: 95px;
   border-radius: 3px;
   background-color: #f7f3ec;
-  vertical-align: middle;
   text-align: center;
   font-size: 17px;
   font-family: 'ptsans', Arial, sans-serif;
@@ -1228,7 +1239,6 @@
 
 .goods-catalog-items-list {
   display: flex;
-  margin-right: 0;
   margin-bottom: 0;
   width: 700px;
   border-radius: 3px;
@@ -1414,10 +1424,10 @@
 }
 
 .old-price {
+  margin-top: 15px;
   margin-right: 40px;
-  margin-bottom: 15px;
-  margin-bottom: 8px;
-  margin-left: 77px;
+  margin-bottom: 25px;
+  margin-left: 43px;
   color: #a9a9a9;
   color: #999;
   text-align: center;
@@ -1448,7 +1458,6 @@
   border-radius: 3px;
   background: #ee3643;
   color: white;
-  vertical-align: middle;
   text-align: center;
   font-weight: 700;
   font-family: 'PTSans', 'Arial', sans-serif;
@@ -1479,7 +1488,6 @@
   border: 3px solid #63a63e;
   border-bottom-color: #367315;
   border-radius: 3px;
-  vertical-align: middle;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: normal;
@@ -1589,7 +1597,8 @@
   margin-left: -13px;
   width: 16px;
   height: 20px;
-  background: url(../img/icon-right-small.png) no-repeat;
+  background: url(../img/icon-right-small.png);
+  background-repeat: no-repeat;
   content: "";
 }
 
@@ -1618,6 +1627,7 @@
 
 .page-button {
   display: block;
+  margin-right: 9px;
   padding-top: 9px;
   padding-right: 15px;
   padding-bottom: 9px;
@@ -1675,6 +1685,7 @@
   display: flex;
   display: flex;
   flex-direction: row;
+
   flex-wrap: wrap;
 }
 
@@ -1727,24 +1738,23 @@
   transform: translate(190%, -43%);
 }
 
-.technic {
-  position: absolute;
-  top: 50%;
-  left: 18%;
-  transform: translate(175%, -46%);
-}
-
-.shipping {
-  position: absolute;
-  top: 50%;
-  left: 18%;
-  transform: translate(176%, -43%);
-}
-
+.technic,
+.shipping,
 .discount {
   position: absolute;
   top: 50%;
   left: 18%;
+}
+
+.technic {
+  transform: translate(175%, -46%);
+}
+
+.shipping {
+  transform: translate(176%, -43%);
+}
+
+.discount {
   transform: translate(240%, -45%);
 }
 
@@ -1774,92 +1784,89 @@
   height: 42px;
   border-radius: 50px;
   background: #212a3a;
+  vertical-align: middle;
   text-decoration: none;
   line-height: 42px;
 }
 
-.phone-icon {
+.phone-icon,
+.phone-icon-catalog,
+.vk-icon,
+.fb-icon,
+.inst-icon {
   position: absolute;
-  top: 1px;
-  right: 234px;
   content: "";
   opacity: 0.3;
+}
+
+.user-icon,
+.home-icon,
+.dir-icon,
+.dir-icon-top,
+.logout-icon {
+  position: absolute;
+  top: 15px;
+  right: 18px;
+  content: "";
+}
+
+.phone-icon {
+  top: 1px;
+  right: 234px;
 }
 
 .phone-icon-catalog {
-  position: absolute;
   top: 1px;
   right: 220px;
-  content: "";
-  opacity: 0.3;
 }
 
 .vk-icon {
-  position: absolute;
   top: 15px;
   right: -267px;
-  content: "";
-  opacity: 0.3;
 }
 
 .fb-icon {
-  position: absolute;
   top: 13px;
   right: -273px;
-  content: "";
-  opacity: 0.3;
 }
 
 .inst-icon {
-  position: absolute;
   top: 14px;
   right: 8px;
-  content: "";
-  opacity: 0.3;
 }
 
 .home-icon {
-  position: absolute;
   top: 5px;
   right: 924px;
-  content: "";
 }
 
 .dir-icon {
-  position: absolute;
-  top: 10px;
+  top: 15px;
   right: 18px;
-  content: "";
 
   fill: #C1C6CE;
 }
 
 .dir-icon-top {
-  position: absolute;
-  top: 10px;
-  right: 44px;
-  content: "";
+  top: 15px;
+  right: 49px;
   transform: rotate(180deg);
 
   fill: #ee3643;
 }
 
 .logout-icon {
-  position: absolute;
   top: 15px;
   top: 0;
   right: 15px;
   right: 248px;
-  content: "";
 
   fill: #c5c5c5;
 }
 
 .user-icon {
-  position: absolute;
   top: 10px;
   right: 265px;
-  content: "";
 
   fill: #c5c5c5;
 }
@@ -1934,40 +1941,38 @@
   opacity: 0.3;
 }
 
-.social-button-vk:before {
+.social-button-vk:before,
+.social-button-fb:before,
+.social-button-inst:before {
   position: absolute;
+  background-repeat: no-repeat;
+  content: "";
+  transform: scale(0.9);
+}
+
+
+.social-button-vk:before {
   top: 15px;
   left: 9px;
   width: 26px;
   height: 15px;
   background-image: url("../img/icon-vk.svg");
-  background-repeat: no-repeat;
-  content: "";
-  transform: scale(0.9);
 }
 
 .social-button-fb:before {
-  position: absolute;
   top: 12px;
   left: 15px;
   width: 12px;
   height: 22px;
   background-image: url("../img/icon-fb.svg");
-  background-repeat: no-repeat;
-  content: "";
-  transform: scale(0.9);
 }
 
 .social-button-inst:before {
-  position: absolute;
   top: 12px;
   left: 9px;
   width: 21px;
   height: 21px;
   background-image: url("../img/icon-insta.svg");
-  background-repeat: no-repeat;
-  content: "";
-  transform: scale(0.9);
 }
 
 .range-filter {
@@ -1979,7 +1984,7 @@
   border-radius: 3px;
 }
 
-.sidebar legend {
+.sidebar .price-filter {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
@@ -2038,9 +2043,11 @@
   cursor: pointer;
 }
 
-.price-controls label {
+.price-controls .min-price,
+.price-controls .max-price {
   display: inline-block;
   width: 50%;
+  vertical-align: middle;
   text-transform: uppercase;
   font-size: 16px;
 }
@@ -2082,27 +2089,26 @@
 }
 
 .checkbox-control:checked + .checkbox-label:before,
-.checkbox .checkbox-label-checked::before {
-  position: absolute;
-  left: -10px;
-  width: 23px;
-  height: 23px;
-  background-image: url("../img/checkbox-on.svg");
-  background-repeat: no-repeat;
-  content: "";
-  opacity: 0.5;
-}
-
+.checkbox .checkbox-label-checked::before,
 .checkbox-control:checked + .checkbox-label-checked:before,
 .checkbox .checkbox-label::before {
   position: absolute;
   left: -10px;
   width: 23px;
   height: 23px;
-  background-image: url("../img/checkbox-off.svg");
   background-repeat: no-repeat;
   content: "";
   opacity: 0.5;
+}
+
+.checkbox-control:checked + .checkbox-label:before,
+.checkbox .checkbox-label-checked::before {
+  background-image: url("../img/checkbox-on.svg");
+}
+
+.checkbox-control:checked + .checkbox-label-checked:before,
+.checkbox .checkbox-label::before {
+  background-image: url("../img/checkbox-off.svg");
 }
 
 .radio-button-control,
