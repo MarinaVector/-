@@ -300,12 +300,12 @@
 }
 
 .head-contact-phone-catalog {
+  margin-right: -20px;
+  margin-left: 67px;
   padding-top: 9px;
   padding-right: 49px;
   padding-bottom: 7px;
   padding-left: 77px;
-  margin-left: 67px;
-  margin-right: -20px;
   border: 3px solid white;
   color: #ee3643;
   font-size: 21px;
@@ -344,9 +344,9 @@
 
 .footer-contacts-phone {
   color: white;
+  letter-spacing: 0.2px;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 0.2px;
 }
 
 .login {
@@ -420,21 +420,21 @@
 }
 
 .perforators-about {
+  margin-top: 0;
+  margin-bottom: 22px;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 30px;
   line-height: 30px;
-  margin-top: 0;
-  margin-bottom: 22px;
 }
 
 .perforators-about-description {
+  width: 100%;
   font-weight: 400;
   font-size: 13px;
   font-family: 'ptsans', 'Arial', sans-serif;
   line-height: 24px;
-  width: 100%;
-  }
+}
 
 .slider {
   margin-top: 0;
@@ -507,8 +507,8 @@
 
 .company-tehnomart,
 .contacts-title {
-  margin-bottom: 32px;
   margin-top: 25px;
+  margin-bottom: 32px;
   color: black;
   text-transform: uppercase;
   font-weight: 400;
@@ -567,9 +567,9 @@
   margin-top: 6px;
   margin-right: 23px;
   padding-top: 9px;
+  padding-right: 68px;
   padding-bottom: 10px;
   padding-left: 70px;
-  padding-right: 68px;
   border-radius: 3px;
   vertical-align: middle;
   text-align: center;
@@ -987,9 +987,9 @@
   padding-left: 0;
   width: 330px;
   color: white;
+  letter-spacing: 0.17px;
   font-size: 18px;
   line-height: 24px;
-  letter-spacing: 0.17px;
 }
 
 .footer-shop-link:hover,
@@ -1028,7 +1028,6 @@
 }
 
 .navigation-footer-item:nth-child(5) {
-
   padding-left: 5x;
 }
 
@@ -1089,9 +1088,9 @@
 }
 
 .price-filter {
+  margin-bottom: 0;
   padding-left: 0;
   border-radius: 3px;
-  margin-bottom: 0;
 }
 
 .checkbox-label,
@@ -1106,16 +1105,16 @@
 
 .radio-button-label {
   display: block;
-  margin-left: 15px;
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 .checkbox {
   position: relative;
   display: block;
+  margin-left: 10px;
   padding-top: 8px;
   padding-bottom: 13px;
-  margin-left: 10px;
 }
 
 .checkbox:last-child {
@@ -1180,16 +1179,16 @@
 }
 
 .power-type {
+  margin-left: 0;
   padding-top: 0;
   padding-bottom: 0;
   padding-left: 0;
-  margin-left: 0;
 }
 
 .makers {
   padding-top: 0;
-  padding-left: 0;
   padding-bottom: 0;
+  padding-left: 0;
 }
 
 .copyright-company {
@@ -1561,9 +1560,9 @@
 
 .user-menu-button {
   display: block;
-  margin-left: 2px;
   margin-top: -10px;
   margin-bottom: 7px;
+  margin-left: 2px;
   padding-top: 11px;
   padding-right: 50px;
   padding-bottom: 11px;
@@ -1577,8 +1576,9 @@
 .breadcrumbs {
   position: relative;
   display: flex;
-  width: 322px;
   margin-top: -38px;
+  width: 322px;
+
   justify-content: space-between;
 }
 
@@ -1611,8 +1611,8 @@
 }
 
 .filter-topbar {
-  border-radius: 3px;
   margin-bottom: 9px;
+  border-radius: 3px;
 }
 
 .page-button {
@@ -2003,8 +2003,8 @@
 }
 
 .line {
-  border: 1px solid #e5e5e5;
   margin-bottom: 0;
+  border: 1px solid #e5e5e5;
 }
 
 .line-filter {
